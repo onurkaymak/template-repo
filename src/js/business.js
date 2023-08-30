@@ -1,3 +1,3 @@
-export default testFunc = () => {
-    console.log('It works!');
+export const testFunc = () => {
+
 };

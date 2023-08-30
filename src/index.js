@@ -1,4 +1,4 @@
-import './js/business';
+import { testFunc } from './js/business';
 import './css/styles.css';
 
 
