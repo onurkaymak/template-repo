@@ -19,7 +19,7 @@ module.exports = {
             verbose: true
         }),
         new HtmlWebpackPlugin({
-            title: 'Template Repo',
+            title: 'Template',
             template: './src/index.html',
             inject: 'body'
         })

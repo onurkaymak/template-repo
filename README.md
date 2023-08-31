@@ -8,24 +8,37 @@
 
 ## Technologies Used
 
-- _List all_
-- _the major technologies_
-- _you used in your project_
-- _here_
+- HTML5
+- CSS
+- JavaScript
+- Node.js
+- Git
+- NPM
+- JEST
+- ESLint
+- VS Code
 
 ## Description
 
 ## Setup/Installation Requirements
 
-- _You have two option to view this project;_
+### You have two option to view this project:
 
 ## First Option
 
+- Clone this project from provided GitHub repository: [Repository Link](https://github.com/onurkaymak/pizza-parlor)
+- Navigate into the project's folder in your terminal.
+- Please note that you need have Node.js and NPM are installed in your local machine to install all the dependencies.
+- Type `npm install` in your terminal to download all the necessary dependencies.
+- Once NPM install all the dependencies, you can type `npm run start` in your terminal to view the project on your browser.
+
 ## Second Option
+
+You can also view this project live from the provided link: [Live App Link](https://github.com/onurkaymak/pizza-parlor)
 
 ## Known Bugs
 
-- _There is no known bugs._
+There is no known bugs.
 
 ## License
 
