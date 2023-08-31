@@ -34,7 +34,7 @@
 
 ## Second Option
 
-You can also view this project live from the provided link: [Live App Link](https://github.com/onurkaymak/pizza-parlor)
+You can also view this project live from the provided link: [Live App Link](https://github.com/onurkaymak)
 
 ## Known Bugs
 
