@@ -10,7 +10,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     devServer: {
-        contentBase: './dist'
+        static: './dist'
     },
     devtool: 'eval-source-map',
     plugins: [
@@ -19,7 +19,7 @@ module.exports = {
             verbose: true
         }),
         new HtmlWebpackPlugin({
-            title: 'Shape Tracker',
+            title: 'Template Repo',
             template: './src/index.html',
             inject: 'body'
         })
@@ -32,7 +32,23 @@ module.exports = {
                     'style-loader',
                     'css-loader'
                 ]
-            }
+            },
+            {
+                test: /\.(gif|png|avif|jpe?g)$/,
+                type: "asset/resource",
+                generator: {
+                    filename: "[name][ext]",
+                    publicPath: "assets/images/",
+                    outputPath: "assets/images/",
+                },
+            },
+            {
+                test: /\.html$/,
+                use: [
+                    'html-loader'
+                ]
+            },
+
         ]
     }
 };
